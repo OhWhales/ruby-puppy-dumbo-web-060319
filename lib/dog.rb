@@ -12,8 +12,9 @@ class Dog
   end 
   
   def self.all 
-    for x in @@all
-      puts x.name 
-    end 
+    counter = 0 
+    while ( counter < @@all.size)
+      
+  end 
   end 
 end 
