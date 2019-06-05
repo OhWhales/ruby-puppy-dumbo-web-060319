@@ -14,7 +14,8 @@ class Dog
   def self.all 
     counter = 0 
     while ( counter < @@all.size)
-      
+      puts @@all[counter]
+    end 
   end 
   end 
 end 
