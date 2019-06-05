@@ -7,11 +7,11 @@ class Dog
   
   @@all=[]
   
-  def clear_all
+  def self.clear_all
     @@all.length=0
   end 
   
-  def all 
+  def self.all 
     for x in @@all
       puts x.name 
     end 
