@@ -15,6 +15,7 @@ class Dog
     counter = 0 
     while ( counter < @@all.size)
       puts @@all[counter]
+      counter = counter + 1
     end 
   end 
   end 
